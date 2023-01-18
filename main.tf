@@ -10,7 +10,7 @@ provider "aws" {
   region = var.region
 }
 
-module "s3-webapp" {
+module "webapp" {
   source  = "app.terraform.io/ACS-Kebs/s3-webapp/aws"
   name    = var.name
   region  = var.region
