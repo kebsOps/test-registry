@@ -1,3 +1,3 @@
 output "website_endpoint" {
-  value = module.webapp.endpoint
+  value = module.s3-webapp.endpoint
 }
