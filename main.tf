@@ -6,10 +6,6 @@ terraform {
         }
      }
   }
-  
-provider "aws" {
-  region = var.region
-}
 
 module "s3-webapp" {
   source  = "app.terraform.io/ACS-Kebs/s3-webapp/aws"
